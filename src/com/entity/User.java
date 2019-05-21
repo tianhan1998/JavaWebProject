@@ -1,3 +1,5 @@
+package com.entity;
+
 public class User {
     private String Sno;
     private String Sname;

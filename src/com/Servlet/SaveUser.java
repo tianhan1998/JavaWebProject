@@ -1,3 +1,8 @@
+package com.Servlet;
+
+import com.entity.User;
+import com.UserDao.SetUser;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -6,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "SaveUser")
+@WebServlet(name = "com.Servlet.SaveUser")
 public class SaveUser extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
